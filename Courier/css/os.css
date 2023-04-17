@@ -1,0 +1,109 @@
+.dd{
+    margin-top:20px;
+}
+
+#mydiv{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    justify-content:center;
+    grid-gap: 10px;
+}
+
+.myp{
+    width:200px;
+    /* height:150px; */
+    background-color:#0c79e3;
+    padding:40px;    
+    box-shadow:5px 5px 2px 2px grey;
+    border-radius:10px;
+    color:#fff;
+    font-size:20px;
+    font-weight:900;
+}
+
+/* .horizontal_dotted_line {
+    border-bottom: 1px dotted #111;
+    width: 20px;
+  } */
+
+.myic{
+    /* position: absolute !important; */
+    font-size: 28px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    color: #222;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background-color:#0c79e3;
+    animation: an 10s infinite;
+}
+
+@keyframes an {
+    0%{
+        opacity:1;
+    }
+    5%{
+        opacity:1;
+    }
+    10%{
+        opacity:0.5;
+    }
+    15%{
+        opacity:1;
+    }
+    20%{
+        opacity:0.5;
+    }
+    25%{
+        opacity:1;
+    }
+    30%{
+        opacity:0.5;
+    }
+    35%{
+        opacity:1;
+    }
+    40%{
+        opacity:0.5;
+    }
+    45%{
+        opacity:1;
+    }
+    50%{
+        opacity:0.5
+    }
+    55%{
+        opacity:1;
+    }
+    60%{
+        opacity:0.5;
+    }
+    65%{
+        opacity:1;
+    }
+    70%{
+        opacity:0.5;
+    }
+    75%{
+        opacity:1;
+    }
+    80%{
+        opacity:0.5;
+    }
+    85%{
+        opacity:1;
+    }
+    90%{
+        opacity:0.5;
+    }
+    95%{
+        opacity:1;
+    }
+    100%{
+        opacity:0.5;
+    }
+    
+}

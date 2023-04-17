@@ -1,0 +1,68 @@
+.btn-o{
+    background-color:orangered;
+    font-weight:500;
+    font-size: 1.75rem;
+}
+
+.world{
+    color:orangered;
+}
+
+.we{
+    color:#fff;
+}
+
+#nm{
+    color:orangered;
+}
+
+.input-fullwidth{
+    height: 55px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-family: "Poppins";
+    color:#fff;
+    font-size:30px;
+  
+}
+
+.col-md-5 .no-padding input{
+    color:#fff;
+    
+}
+
+.tp{
+   background: #fff;
+}
+
+.comp{
+    color:orangered;
+}
+
+.s{
+    background:url('./wp-content/themes/fastrans/assets/images/shape/exp-sh1.png');
+}
+
+body{
+    background:url('../img/bg/Express-Logistics1.png');
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    z-index: 1000;
+    color:#fff;
+}
+
+.ser{
+    color:#fff;
+}
+
+#emmy{
+    display:flex;
+    justify-content:space-around;
+    align-items:baseline;
+
+}
+
+.t{
+    float:right;
+}
